@@ -1,0 +1,165 @@
+[
+    {
+        "type": "Payment",
+        "amount": 99.71,
+        "transactionName": "Apple",
+        "transactionDescription": "From JPMorgan Chase Bank National",
+        "date": "11/6/24",
+        "pending": true,
+        "user": "Diana"
+    },
+    {
+        "type": "Payment",
+        "amount": 73.58,
+        "transactionName": "Apple",
+        "transactionDescription": "From JPMorgan Chase Bank National",
+        "date": "11/6/24",
+        "pending": true
+    },
+    {
+        "type": "Credit",
+        "amount": 21.61,
+        "transactionName": "IKEA",
+        "transactionDescription": "Round Rock, TX",
+        "date": "10/1/22",
+        "pending": true
+    },
+    {
+        "type": "Credit",
+        "amount": 73.58,
+        "transactionName": "Target",
+        "transactionDescription": "Cedar Park, TX",
+        "date": "10/2/22",
+        "pending": true
+    },
+    {
+        "type": "Credit",
+        "amount": 15.99,
+        "transactionName": "Amazon",
+        "transactionDescription": "Online Purchase",
+        "date": "11/6/24",
+        "pending": true
+    },
+    {
+        "type": "Payment",
+        "amount": 150.0,
+        "transactionName": "Bank Transfer",
+        "transactionDescription": "Salary",
+        "date": "11/6/24",
+        "pending": true
+    },
+    {
+        "type": "Credit",
+        "amount": 45.23,
+        "transactionName": "Starbucks",
+        "transactionDescription": "Coffee and Snacks",
+        "date": "11/6/24",
+        "pending": false
+    },
+    {
+        "type": "Credit",
+        "amount": 89.99,
+        "transactionName": "Best Buy",
+        "transactionDescription": "Electronics Purchase",
+        "date": "10/5/22",
+        "pending": false
+    },
+    {
+        "type": "Payment",
+        "amount": 120.5,
+        "transactionName": "Apple",
+        "transactionDescription": "Refund",
+        "date": "10/6/24",
+        "pending": false
+    },
+    {
+        "type": "Credit",
+        "amount": 60.0,
+        "transactionName": "Uber",
+        "transactionDescription": "Ride to Airport",
+        "date": "10/6/24",
+        "pending": false
+    },
+    {
+        "type": "Credit",
+        "amount": 35.75,
+        "transactionName": "Walmart",
+        "transactionDescription": "Groceries",
+        "date": "10/3/22",
+        "pending": true,
+        "user": "Ron"
+    },
+    {
+        "type": "Payment",
+        "amount": 200.0,
+        "transactionName": "Venmo",
+        "transactionDescription": "Received from Alex",
+        "date": "10/6/24",
+        "pending": false
+    },
+    {
+        "type": "Credit",
+        "amount": 12.99,
+        "transactionName": "Spotify",
+        "transactionDescription": "Monthly Subscription",
+        "date": "10/6/24",
+        "pending": true,
+        "user": "Tomas"
+    },
+    {
+        "type": "Credit",
+        "amount": 19.99,
+        "transactionName": "Netflix",
+        "transactionDescription": "Monthly Subscription",
+        "date": "10/6/22",
+        "pending": false
+    },
+    {
+        "type": "Payment",
+        "amount": 50.0,
+        "transactionName": "Gift",
+        "transactionDescription": "Received from Diana",
+        "date": "10/6/22",
+        "pending": false
+    },
+    {
+        "type": "Credit",
+        "amount": 100.0,
+        "transactionName": "Gym Membership",
+        "transactionDescription": "Monthly Fee",
+        "date": "16/1/25",
+        "pending": true
+    },
+    {
+        "type": "Credit",
+        "amount": 25.0,
+        "transactionName": "DoorDash",
+        "transactionDescription": "Food Delivery",
+        "date": "16/1/25",
+        "pending": false
+    },
+    {
+        "type": "Payment",
+        "amount": 75.0,
+        "transactionName": "Refund",
+        "transactionDescription": "Target Purchase",
+        "date": "16/1/25",
+        "pending": true
+    },
+    {
+        "type": "Credit",
+        "amount": 18.45,
+        "transactionName": "Petco",
+        "transactionDescription": "Pet Supplies",
+        "date": "10/6/22",
+        "pending": true
+    },
+    {
+        "type": "Credit",
+        "amount": 90.0,
+        "transactionName": "Sephora",
+        "transactionDescription": "Cosmetics Purchase",
+        "date": "10/4/22",
+        "pending": false
+    }
+]

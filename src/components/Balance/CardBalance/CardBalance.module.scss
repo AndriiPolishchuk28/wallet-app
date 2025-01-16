@@ -1,0 +1,16 @@
+.wrapper {
+    width: 180px;
+    height: 105px;
+    background-color: #fffcfc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.balance {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.available_balance {
+    color: var(--light-grey);
+}
