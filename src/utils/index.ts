@@ -67,21 +67,30 @@ const getPoints = (days: number): number => {
   let firstDay = 2;
   let secondDay = 3;
   let currentDay:number = 0;
-  let totalPoints: number = firstDay + secondDay;
+  if(days === 1) return 2;
+  else if(days === 2) return 3;
 
   for(let n = 3; n <= days; n++) {
       currentDay = firstDay + 0.6 * secondDay;
-      totalPoints += currentDay;
       firstDay = secondDay;
       secondDay = currentDay;
   }
-  return Math.round(totalPoints);
+  return Math.round(currentDay);
 }  
 
-export const getPointsResult = () => {
+export const getPointsResult = () :string => {
   const season = getSeason();
   const year = new Date().getFullYear();
   const days = getDaysInSeason(season, year);
-  console.log(days);
-  return getPoints(days);
+  const points =  getPoints(days);
+  if(points >= 1000 && points < 1000000) {
+    const rounded = Math.round(points / 1000) * 1000; 
+    return `${rounded / 1000}K`;
+  }
+  else if(points >= 1000000) {
+    const rounded = (points / 1_000_000).toFixed(2);
+    return `${rounded}M`;
+  } else {
+    return `${points}`
+  }
 };

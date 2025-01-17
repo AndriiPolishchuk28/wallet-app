@@ -1,0 +1,46 @@
+.wrapper{
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.link {
+    color: var(--black)
+}
+
+.icon {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    font-size: 18px;
+}
+
+.amount {
+    font-size:48px;
+    font-weight: 500;
+}
+
+.subtitle {
+    color: var(--light-grey);
+    margin-bottom: 5px;
+}
+
+.info_wrapper {
+    background-color: var(--bg-list);
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.status_wrapper {
+    border-bottom: 1px solid var(--bg-color);
+    margin-bottom: 10px;
+}
+
+.wrapper_price {
+    display: flex;
+    justify-content: space-between;
+}

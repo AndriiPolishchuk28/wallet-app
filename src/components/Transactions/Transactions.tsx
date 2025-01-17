@@ -9,7 +9,7 @@ const Transactions: FC = () => {
             <h3>Latest Transactions</h3>
             <ul className={scss.list}>
                 {data.slice(-10).map((item, index) => (
-                    <TransactionItem key={index} {...item} />
+                    <TransactionItem key={index} item={item} />
                 ))}
             </ul>
         </div>

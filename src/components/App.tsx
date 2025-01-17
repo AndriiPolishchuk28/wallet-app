@@ -1,11 +1,13 @@
 import { FC } from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "../pages/Home/Home";
+import TransactionsList from "../pages/TransactionsList/TransactionsList";
+import TransactionDetail from "../pages/TransactionDetail/TransactionDetail";
 
 const App: FC = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" index element={<TransactionsList />} />
+      <Route path="/transaction-detail" element={<TransactionDetail />} />
     </Routes>
   );
 };

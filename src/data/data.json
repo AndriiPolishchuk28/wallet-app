@@ -5,7 +5,7 @@
         "transactionName": "Apple",
         "transactionDescription": "From JPMorgan Chase Bank National",
         "date": "11/6/24",
-        "pending": true,
+        "status": "pending",
         "user": "Diana"
     },
     {
@@ -14,7 +14,7 @@
         "transactionName": "Apple",
         "transactionDescription": "From JPMorgan Chase Bank National",
         "date": "11/6/24",
-        "pending": true
+        "status": "pending"
     },
     {
         "type": "Credit",
@@ -22,7 +22,7 @@
         "transactionName": "IKEA",
         "transactionDescription": "Round Rock, TX",
         "date": "10/1/22",
-        "pending": true
+        "status": "pending"
     },
     {
         "type": "Credit",
@@ -30,7 +30,7 @@
         "transactionName": "Target",
         "transactionDescription": "Cedar Park, TX",
         "date": "10/2/22",
-        "pending": true
+        "status": "pending"
     },
     {
         "type": "Credit",
@@ -38,7 +38,7 @@
         "transactionName": "Amazon",
         "transactionDescription": "Online Purchase",
         "date": "11/6/24",
-        "pending": true
+        "status": "pending"
     },
     {
         "type": "Payment",
@@ -46,7 +46,7 @@
         "transactionName": "Bank Transfer",
         "transactionDescription": "Salary",
         "date": "11/6/24",
-        "pending": true
+        "status": "pending"
     },
     {
         "type": "Credit",
@@ -54,7 +54,7 @@
         "transactionName": "Starbucks",
         "transactionDescription": "Coffee and Snacks",
         "date": "11/6/24",
-        "pending": false
+        "status": "approved"
     },
     {
         "type": "Credit",
@@ -62,7 +62,7 @@
         "transactionName": "Best Buy",
         "transactionDescription": "Electronics Purchase",
         "date": "10/5/22",
-        "pending": false
+        "status": "approved"
     },
     {
         "type": "Payment",
@@ -70,7 +70,7 @@
         "transactionName": "Apple",
         "transactionDescription": "Refund",
         "date": "10/6/24",
-        "pending": false
+        "status": "approved"
     },
     {
         "type": "Credit",
@@ -78,7 +78,7 @@
         "transactionName": "Uber",
         "transactionDescription": "Ride to Airport",
         "date": "10/6/24",
-        "pending": false
+        "status": "approved"
     },
     {
         "type": "Credit",
@@ -86,7 +86,7 @@
         "transactionName": "Walmart",
         "transactionDescription": "Groceries",
         "date": "10/3/22",
-        "pending": true,
+        "status": "pending",
         "user": "Ron"
     },
     {
@@ -95,7 +95,7 @@
         "transactionName": "Venmo",
         "transactionDescription": "Received from Alex",
         "date": "10/6/24",
-        "pending": false
+        "status": "approved"
     },
     {
         "type": "Credit",
@@ -103,7 +103,7 @@
         "transactionName": "Spotify",
         "transactionDescription": "Monthly Subscription",
         "date": "10/6/24",
-        "pending": true,
+        "status": "pending",
         "user": "Tomas"
     },
     {
@@ -112,7 +112,7 @@
         "transactionName": "Netflix",
         "transactionDescription": "Monthly Subscription",
         "date": "10/6/22",
-        "pending": false
+        "status": "approved"
     },
     {
         "type": "Payment",
@@ -120,7 +120,7 @@
         "transactionName": "Gift",
         "transactionDescription": "Received from Diana",
         "date": "10/6/22",
-        "pending": false
+        "status": "approved"
     },
     {
         "type": "Credit",
@@ -128,7 +128,7 @@
         "transactionName": "Gym Membership",
         "transactionDescription": "Monthly Fee",
         "date": "16/1/25",
-        "pending": true
+        "status": "pending"
     },
     {
         "type": "Credit",
@@ -136,7 +136,7 @@
         "transactionName": "DoorDash",
         "transactionDescription": "Food Delivery",
         "date": "16/1/25",
-        "pending": false
+        "status": "approved"
     },
     {
         "type": "Payment",
@@ -144,7 +144,7 @@
         "transactionName": "Refund",
         "transactionDescription": "Target Purchase",
         "date": "16/1/25",
-        "pending": true
+        "status": "pending"
     },
     {
         "type": "Credit",
@@ -152,7 +152,7 @@
         "transactionName": "Petco",
         "transactionDescription": "Pet Supplies",
         "date": "10/6/22",
-        "pending": true
+        "status": "pending"
     },
     {
         "type": "Credit",
@@ -160,6 +160,6 @@
         "transactionName": "Sephora",
         "transactionDescription": "Cosmetics Purchase",
         "date": "10/4/22",
-        "pending": false
+        "status": "approved"
     }
 ]

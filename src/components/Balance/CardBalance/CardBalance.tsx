@@ -6,7 +6,7 @@ const CardBalance: FC = () => {
     const [balance] = useState<number>(generateRandomBalance());
     
     const limit:number = 1500;
-    const availableBalance:number = limit - balance;
+    const availableBalance:string = (limit - balance).toFixed(2);
   return (
     <div className={scss.wrapper}>
       <p className={scss.title}>Card Balance</p>

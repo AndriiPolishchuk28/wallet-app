@@ -1,9 +1,9 @@
 import { FC } from "react";
 import Balance from "../../components/Balance/Balance";
-import scss from './Home.module.scss';
+import scss from './TransactionsList.module.scss';
 import Transactions from "../../components/Transactions/Transactions";
 
-const Home: FC = () => {
+const TransactionsList: FC = () => {
   return (
     <div className={scss.wrapper}>
       <Balance/>
@@ -12,4 +12,4 @@ const Home: FC = () => {
   );
 };
 
-export default Home;
+export default TransactionsList;
