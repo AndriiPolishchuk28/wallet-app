@@ -7,7 +7,7 @@ export const getDayIfThisWeek = (dateString: string): string | null => {
     const [day, month, year] = dateString.split('/').map(num => parseInt(num, 10));
     const date = new Date(year + 2000, month - 1, day); 
     const currentDate = new Date();
-    const startOfWeek = new Date(currentDate.setDate(currentDate.getDate() - currentDate.getDay())); // початок тижня
+    const startOfWeek = new Date(currentDate.setDate(currentDate.getDate() - currentDate.getDay())); 
     const endOfWeek = new Date(startOfWeek);
     endOfWeek.setDate(startOfWeek.getDate() + 6);
   
@@ -83,6 +83,7 @@ export const getPointsResult = () :string => {
   const year = new Date().getFullYear();
   const days = getDaysInSeason(season, year);
   const points =  getPoints(days);
+
   if(points >= 1000 && points < 1000000) {
     const rounded = Math.round(points / 1000) * 1000; 
     return `${rounded / 1000}K`;
